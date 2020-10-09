@@ -9,7 +9,6 @@ const connection = mysql.createConnection(process.env.JAWSDB_URL || {
 
 const query = function(query, values) {
   console.log(Object.values(arguments));
-  return;
   return new Promise((resolve, reject) => {
     connection.query(...Object.values(arguments), (err, data) => {
       if (err) reject(err);
