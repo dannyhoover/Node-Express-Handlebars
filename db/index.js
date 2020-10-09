@@ -18,5 +18,5 @@ const query = function(query, values) {
 }
 
 module.exports = {
-
+    connection
 }
