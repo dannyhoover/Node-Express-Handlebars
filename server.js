@@ -4,7 +4,7 @@ const bodyParse = require("body-parser");
 const serveStatic = require("serve-static");
 const exphbs  = require('express-handlebars');
 
-require("./db");
+require("./config/connection");
 
 const PORT = process.env.PORT || 80;
 
