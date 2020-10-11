@@ -1,7 +1,11 @@
+h1 {
+  text-align: center;
+}
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  flex-wrap: wrap;
 }
 
 .label {
@@ -16,4 +20,19 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+ul {
+text-align: left;
+flex-wrap: wrap;
+}
+
+.list1 li {
+  width: 25%;
+  background: rgb(146, 206, 255);
+}
+
+.list2 li {
+  width: 25%;
+  background: rgb(163, 245, 170);
 }
