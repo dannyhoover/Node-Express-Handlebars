@@ -1,5 +1,16 @@
+.container {
+  padding-top: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1 {
   text-align: center;
+  font-style: italic;
 }
 
 li {
@@ -23,8 +34,19 @@ li {
 }
 
 ul {
-text-align: left;
-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.row {
+  padding-top: 20px;
+}
+
+/* .list1 {
+  float: left;
+}
+
+.list2 {
+  float: right;
 }
 
 .list1 li {
@@ -35,4 +57,4 @@ flex-wrap: wrap;
 .list2 li {
   width: 25%;
   background: rgb(163, 245, 170);
-}
+} */
