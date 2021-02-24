@@ -1,4 +1,4 @@
-# Node-Express-Handlebars
+# Burger Database
 
 This application gives the user an input box where they can put in their favorite burgers at an eaten or uneaten status.
 
